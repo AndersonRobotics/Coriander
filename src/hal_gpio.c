@@ -1,5 +1,11 @@
 #include "hal_gpio.h"
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/mman.h>
+#include <unistd.h.>
+
 int memory_descriptor;
 
 unsigned int *gpio;
